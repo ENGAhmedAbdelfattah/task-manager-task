@@ -1,12 +1,12 @@
 "use client";
-import useHeader from "@/hooks/header/useHeader";
 import Image from "next/image";
 import tasksIcon from "@/../public/images/tasks-icon.svg";
 import logoImg from "@/../public/images/logo.png";
 import Link from "next/link";
+import { useAppSelector } from "@/redux/app/hooks";
 
 function Header() {
-    const { } = useHeader();
+    const tasksNums = useAppSelector(store => store.tasks.tasksNums);
 
     return (
         <header className="rounded-[50px] bg-cyan-200 m-1">
@@ -22,7 +22,7 @@ function Header() {
                     </Link>
                 </div>
                 <div className="flex p-3">
-                    <span className="rounded px-3 py-1 bg-slate-600 h-fit text-white">25</span>
+                    <span className="rounded px-3 py-1 bg-slate-600 h-fit text-white">{tasksNums}</span>
                     <Image src={tasksIcon} alt="" width={30} height={30} />
                 </div>
             </div>

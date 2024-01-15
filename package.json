@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "jsonServer": "json-server -p 5000 --watch db.json"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
+    "json-server": "^1.0.0-alpha.21",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",

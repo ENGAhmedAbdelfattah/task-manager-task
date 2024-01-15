@@ -1,12 +1,11 @@
 import { baseUrl } from "@/baseApi/apiUrl";
-import { NextPageContext } from "next";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest, context: any) {
     const { params } = context;
     console.log("params", params);
     try {
-        const response = await fetch(`${baseUrl}/todos/${params.taskId}`, {
+        const response = await fetch(`${baseUrl}/tasks/${params.taskId}`, {
             headers: {
                 "content-type": "application/json",
             },
@@ -20,35 +19,17 @@ export async function GET(request: NextRequest, context: any) {
     }
 }
 
-export async function POST(request: NextRequest, context: any) {
-    const { params } = context;
-    console.log("params", params);
-    try {
-        const res = await fetch(`${baseUrl}/todos/`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(request.body),
-        });
-        const data = await res.json();
-        return Response.json(data);
-    } catch (err) {
-        console.log("err", err);
-        NextResponse.json({ err, massage: "failed to create task" });
-    }
-}
-
 export async function PUT(request: NextRequest, context: any) {
     const { params } = context;
     console.log("params", params);
+    const dataSend = await request.json();
     try {
-        const response = await fetch(`${baseUrl}/todos/${params.taskId}`, {
+        const response = await fetch(`${baseUrl}/tasks/${params.taskId}`, {
             method: "PUT",
             headers: {
                 "content-type": "application/json",
             },
-            body: JSON.stringify(request.body),
+            body: JSON.stringify(dataSend),
         });
         const data = await response.json();
         return NextResponse.json(data);
@@ -62,7 +43,7 @@ export async function DELETE(request: NextRequest, context: any) {
     const { params } = context;
     console.log("params", params);
     try {
-        const response = await fetch(`${baseUrl}/todos/${params.taskId}`, {
+        const response = await fetch(`${baseUrl}/tasks/${params.taskId}`, {
             method: "DELETE",
             headers: {
                 "content-type": "application/json",

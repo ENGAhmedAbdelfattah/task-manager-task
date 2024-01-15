@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import tasksReducer from "../features/local/tasks/tasksSlice";
+import tasksReducer from "../features/local/tasks/tasksTotalSlice";
 const store = configureStore({
     reducer: {
-        tanks: tasksReducer,
+        tasks: tasksReducer,
     },
     devTools: process.env.NODE_ENV === "development", // to make devTools redux toolkit became false in production
 });
