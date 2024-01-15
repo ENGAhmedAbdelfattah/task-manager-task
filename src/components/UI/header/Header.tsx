@@ -11,7 +11,7 @@ function Header() {
     return (
         <header className="rounded-[50px] bg-cyan-200 m-1">
             <div className="container m-auto flex h-16 items-center justify-between">
-                <div className="">
+                <div className="p-3">
                     <Link href={"/"}>
                         <Image
                             src={logoImg}
@@ -21,7 +21,7 @@ function Header() {
                         />
                     </Link>
                 </div>
-                <div className="flex">
+                <div className="flex p-3">
                     <span className="rounded px-3 py-1 bg-slate-600 h-fit text-white">25</span>
                     <Image src={tasksIcon} alt="" width={30} height={30} />
                 </div>

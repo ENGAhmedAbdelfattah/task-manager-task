@@ -1,6 +1,6 @@
 const EditTaskPage = () => {
     return (
-        <div>EditTaskPage</div>
+        <main className="min-h-dvh">EditTaskPage</main>
     );
 }
 

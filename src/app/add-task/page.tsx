@@ -1,6 +1,10 @@
+import AddTask from "@/components/UI/pages/addTask/AddTask";
+
 const AddTaskPage = () => {
     return (
-        <div>AddTaskPage</div>
+        <main className="min-h-dvh">
+            <AddTask />
+        </main>
     );
 }
 
