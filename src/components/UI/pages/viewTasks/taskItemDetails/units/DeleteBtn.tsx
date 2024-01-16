@@ -5,6 +5,7 @@ import useTaskItemDelete from "@/hooks/pages/viewTasks/taskItemDetails/useTaskIt
 type Props = {
     taskId: string;
 }
+
 const DeleteBtn = ({ taskId }: Props) => {
     const { handleDelete } = useTaskItemDelete(taskId);
     return (
