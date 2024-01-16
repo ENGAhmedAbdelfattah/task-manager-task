@@ -1,4 +1,3 @@
-import { useRouter } from "next/navigation";
 import { FormData } from "@/types/TaskType";
 import { useState } from "react";
 
@@ -18,7 +17,6 @@ const addTask = async (body: FormData) => {
 };
 
 const useAddTask = () => {
-    const router = useRouter();
 
     const [formData, setFormData] = useState({
         title: "",
@@ -60,7 +58,6 @@ const useAddTask = () => {
                 title: "",
                 description: ""
             });
-            // router.push("/");
             if (window) window.location.href = "/";
         } else {
             // console.log("error here")
