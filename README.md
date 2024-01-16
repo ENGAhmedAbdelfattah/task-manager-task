@@ -3,7 +3,7 @@
 Take control of your tasks and boost your productivity with a Todo app!
 
 ## 📝 Paper Information
-- Title:  `The-Blog`
+- Title:  `Task Manager`
 - Author:  `Ahmed Mahmoud Abdelfattah`
 
 ## ▶️ Hosted Site
@@ -40,32 +40,29 @@ Take control of your tasks and boost your productivity with a Todo app!
 
   ```
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.3",
-    "@types/node": "20.4.6",
-    "@types/react": "18.2.18",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.46.0",
-    "eslint-config-next": "13.4.12",
-    "formik": "^2.4.3",
-    "next": "13.4.12",
-    "next-themes": "^0.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.10.1",
-    "react-paginate": "^8.2.0",
-    "react-query": "^3.39.3",
-    "react-redux": "^8.0.5",
-    "react-toastify": "^9.1.3",
-    "typescript": "5.1.6",
-    "yup": "^1.2.0"
-  }
+    "@reduxjs/toolkit": "^2.0.1",
+    "json-server": "^1.0.0-alpha.21",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9.1.0"
+  },
 
   ```
 ## 💽 Dependence on Development
   ```
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.1.4",
-    "sass": "^1.64.2"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "prettier": "^3.2.2",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
   ```
 - to install this dependence my use npm package by command
@@ -205,7 +202,7 @@ Task-Manager
 ## ↩️ References
 - [React Reference](https://react.dev/reference/react)
 - [Next Documentation](https://nextjs.org/docs)
-- [Json Placeholder Guide](https://jsonplaceholder.typicode.com/guide/)
+- [Json Server Guide](https://www.freecodecamp.org/news/json-server-for-frontend-development/)
 
 ## 🔑 License
 **This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.**
