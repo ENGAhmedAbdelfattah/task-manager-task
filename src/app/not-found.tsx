@@ -1,6 +1,6 @@
 function page() {
     return (
-        <main></main>
+        <main><p className="text-center">Not Found</p></main>
     );
 }
 

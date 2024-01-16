@@ -11,15 +11,12 @@ function GlobalError({ error, reset }: Props) {
         console.error(error);
         console.log("Server Component ===> error.digest:", error.digest)
         console.log("Client Components ===> error.message:", error.message)
-        // error in layout
-        // () =>reset() => rerender
     }, [error])
 
-    // "هناك عطل في الموقع ونعمل حاليا علي إصلاحه"
     return (
         <html>
             <body>
-                <main></main>
+                <main><p className="text-center">There error in our site and we work to fix it</p></main>
             </body>
         </html>
     )

@@ -12,7 +12,7 @@ export async function GET() {
         const data = await response.json();
         return NextResponse.json(data);
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
         NextResponse.json({ err, massage: "failed to get tasks data" });
     }
 }
@@ -30,7 +30,7 @@ export async function POST(request: NextRequest) {
         const data = await res.json();
         return Response.json(data);
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
         NextResponse.json({ err, massage: "failed to create task" });
     }
 }

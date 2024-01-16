@@ -12,12 +12,12 @@ export default function Error({ error, reset }: Props) {
         console.error(error);
         console.log("Server Component ===> error.digest:", error.digest)
         console.log("Client Components ===> error.message:", error.message)
-        // () =>reset() => rerender
     }, [error])
 
-    // "هناك عطل في هذه الصفحة ونعمل حاليا علي إصلاحه"
     return (
-        <main></main>
+        <main>
+            <p className="text-center">There error in this page and we work to fix it</p>
+        </main>
     )
 }
 

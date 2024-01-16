@@ -3,7 +3,6 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest, context: any) {
     const { params } = context;
-    console.log("params", params);
     try {
         const response = await fetch(`${baseUrl}/tasks/${params.taskId}`, {
             headers: {

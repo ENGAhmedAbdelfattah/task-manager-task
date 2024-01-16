@@ -6,7 +6,7 @@ const getTask = async (id: string) => {
         console.log("data", data)
         return data;
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
     }
 };
 
