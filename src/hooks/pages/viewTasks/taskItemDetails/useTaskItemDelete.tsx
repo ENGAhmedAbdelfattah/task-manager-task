@@ -10,7 +10,7 @@ const deleteTask = async (id: string) => {
         });
         return res
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
     }
 };
 
@@ -22,7 +22,7 @@ const useTaskItemDelete = (taskId: string) => {
             // router.push("/");
             if (window) window.location.href = "/";
         } catch (err) {
-            console.log("err", err);
+            // console.log("err", err);
         }
     }
     return { handleDelete }

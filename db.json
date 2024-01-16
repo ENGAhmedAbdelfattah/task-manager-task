@@ -1,34 +1,5 @@
 {
   "tasks": [
-    {
-      "id": "4",
-      "title": "Satheesh",
-      "description": "Sat@mail.com"
-    },
-    {
-      "id": "1f7a",
-      "title": "sss",
-      "description": "sss"
-    },
-    {
-      "id": "1f9b",
-      "title": "Ali",
-      "description": "Mohamed"
-    },
-    {
-      "id": "ed68",
-      "title": "ahmed",
-      "description": "naser"
-    },
-    {
-      "id": "902f",
-      "title": "www",
-      "description": "www"
-    },
-    {
-      "id": "f256",
-      "title": "dsdsdsd",
-      "description": "ssssssssssssssss"
-    }
+
   ]
 }

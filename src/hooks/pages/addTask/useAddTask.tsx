@@ -13,7 +13,7 @@ const addTask = async (body: FormData) => {
         });
         return res
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
     }
 };
 
@@ -63,7 +63,7 @@ const useAddTask = () => {
             // router.push("/");
             if (window) window.location.href = "/";
         } else {
-            console.log()
+            // console.log("error here")
         }
     };
 

@@ -5,10 +5,10 @@ import { TaskType } from "@/types/TaskType";
 const getTasks = async () => {
     try {
         const data = await (await fetch("http://localhost:3000/api/v1/tasks", { cache: "no-cache" })).json();
-        console.log("data", data)
+        // console.log("data", data)
         return data;
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
     }
 };
 

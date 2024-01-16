@@ -12,7 +12,7 @@ const updateTask = async (body: FormData, id: string) => {
         });
         return res
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
     }
 };
 
@@ -58,7 +58,7 @@ const useEditTask = (taskId: string, taskItem: TaskType) => {
                 description: ""
             });
         } else {
-            console.log()
+            // console.log("error here")
         }
     };
     return { formData, setFormData, formErrors, handleSubmit }

@@ -5,10 +5,10 @@ import DeleteBtn from "./units/DeleteBtn";
 const getTask = async (id: string) => {
     try {
         const data = await (await fetch(`http://localhost:3000/api/v1/tasks/${id}`, { cache: "no-cache" })).json();
-        console.log("data", data)
+        // console.log("data", data)
         return data;
     } catch (err) {
-        console.log("err", err);
+        // console.log("err", err);
     }
 };
 

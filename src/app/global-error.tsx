@@ -8,9 +8,9 @@ type Props = {
 }
 function GlobalError({ error, reset }: Props) {
     useEffect(() => {
-        console.error(error);
-        console.log("Server Component ===> error.digest:", error.digest)
-        console.log("Client Components ===> error.message:", error.message)
+        // console.error(error);
+        // console.log("Server Component ===> error.digest:", error.digest)
+        // console.log("Client Components ===> error.message:", error.message)
     }, [error])
 
     return (
