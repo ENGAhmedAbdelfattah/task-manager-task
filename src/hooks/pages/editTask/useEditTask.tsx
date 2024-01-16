@@ -57,7 +57,7 @@ const useEditTask = (taskId: string, taskItem: TaskType) => {
                 title: "",
                 description: ""
             });
-            if (window) window.location.href = "/";
+            if (window) window.location.href = `/view-tasks/${taskId}`;
         } else {
             // console.log("error here")
         }
