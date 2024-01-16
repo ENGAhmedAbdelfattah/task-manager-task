@@ -4,7 +4,7 @@ const store = configureStore({
     reducer: {
         tasks: tasksReducer,
     },
-    devTools: process.env.NODE_ENV === "development", // to make devTools redux toolkit became false in production
+    devTools: process.env.NEXT_PUBLIC_NODE_ENV === "development", // to make devTools redux toolkit became false in production
 });
 
 export type RootState = ReturnType<typeof store.getState>;

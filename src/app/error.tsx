@@ -20,19 +20,3 @@ export default function Error({ error, reset }: Props) {
         </main>
     )
 }
-
-{/* 
-<div>
-<h2>Something went wrong!</h2>
-<p>{error.digest}</p>
-<p>{error.message}</p>
-<button
-    onClick={
-        // Attempt to recover by trying to re-render the segment
-        () => reset()
-    }
->
-    Try again (Rerender)
-</button>
-</div> 
-*/}

@@ -1,6 +1,5 @@
 'use client'
 import { useEffect } from "react";
-// import TmPreload from "@/components/UI/common/tmPreLoad/TmPreload";
 
 type Props = {
     error: Error & { digest?: string }
@@ -24,8 +23,3 @@ function GlobalError({ error, reset }: Props) {
 
 export default GlobalError;
 
-
-{/*
- <h2>Something went wrong!</h2>
-<button onClick={() => reset()}>Try again</button>
- */}
