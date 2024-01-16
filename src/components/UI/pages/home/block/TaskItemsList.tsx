@@ -20,9 +20,11 @@ const TaskItemsList = async () => {
     return (
         <div className="mt-3 bg-cyan-200 p-3 rounded-lg flex flex-col gap-3">
             <CustomClient tasksTotalNums={Array.isArray(tasksList) ? tasksList.length : 0} />
-            {Array.isArray(tasksList) && tasksList.map((listItem: TaskType) => (
+            {Array.isArray(tasksList) && tasksList.length > 0 ? tasksList.map((listItem: TaskType) => (
                 <TaskItemList key={listItem.id} listItem={listItem} />
-            ))}
+            )) :
+                <p className="text-center">No task now - can add task by clcik on add task button</p>
+            }
         </div>
     );
 }
