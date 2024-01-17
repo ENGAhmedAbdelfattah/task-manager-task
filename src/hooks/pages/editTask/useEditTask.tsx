@@ -1,4 +1,5 @@
 import { FormData, TaskType } from "@/types/TaskType";
+import { handleValidation } from "@/utils/validation/validFormTask";
 import { useState } from "react";
 
 const updateTask = async (body: FormData, id: string) => {
@@ -27,27 +28,9 @@ const useEditTask = (taskId: string, taskItem: TaskType) => {
         description: ""
     });
 
-    const handleValidation = (formData: FormData) => {
-        if (formData.title.trim() === "") {
-            setFormErrors(prev => ({ ...prev, title: "title is required" }));
-        } else {
-            setFormErrors(prev => ({ ...prev, title: "" }));
-        }
-        if (formData.description.trim() === "") {
-            setFormErrors(prev => ({ ...prev, description: "description is required" }));
-        } else {
-            setFormErrors(prev => ({ ...prev, description: "" }));
-        }
-        if (formData.title.trim() === "" || formData.description.trim() === "") {
-            return false;
-        } else {
-            return true;
-        }
-    }
-
     const handleSubmit = async (event: React.FormEvent) => {
         event.preventDefault();
-        if (handleValidation(formData)) {
+        if (handleValidation(formData, setFormErrors)) {
             await updateTask(formData, taskId);
             setFormData({
                 title: "",
