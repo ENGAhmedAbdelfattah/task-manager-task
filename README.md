@@ -11,7 +11,7 @@ Take control of your tasks and boost your productivity with a Todo app!
    [Task Manager](https://task-manager-task.vercel.app)
 
 ## 💻 Install
-- I did was start with a fresh Create Next App instance to use the lasted version of Next v. (13.4.12)
+- I did was start with a fresh Create Next App instance to use the lasted version of Next v. (14.0.4)
 - the commends for install next
   ```
   npx create-next-app@latest
