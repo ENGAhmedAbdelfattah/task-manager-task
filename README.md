@@ -76,113 +76,113 @@ Task-Manager
  ┣ 📂node_modules
  ┣ 📂public
  ┃ ┗ 📂images
- ┃ ┃ ┣ 📜logo.png
- ┃ ┃ ┗ 📜tasks-icon.svg
+ ┃ ┃ ┣ ⚛️logo.png
+ ┃ ┃ ┗ ⚛️tasks-icon.svg
  ┣ 📂src
  ┃ ┣ 📂app
  ┃ ┃ ┣ 📂add-task
- ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┗ ⚛️page.tsx
  ┃ ┃ ┣ 📂api
  ┃ ┃ ┃ ┗ 📂v1
  ┃ ┃ ┃ ┃ ┗ 📂tasks
  ┃ ┃ ┃ ┃ ┃ ┣ 📂[taskId]
- ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜route.ts
- ┃ ┃ ┃ ┃ ┃ ┗ 📜route.ts
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️route.ts
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️route.ts
  ┃ ┃ ┣ 📂edit-task
- ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┗ ⚛️page.tsx
  ┃ ┃ ┣ 📂view-tasks
  ┃ ┃ ┃ ┗ 📂[taskId]
- ┃ ┃ ┃ ┃ ┗ 📜page.tsx
- ┃ ┃ ┣ 📜apple-icon.png
- ┃ ┃ ┣ 📜error.tsx
- ┃ ┃ ┣ 📜favicon.ico
- ┃ ┃ ┣ 📜global-error.tsx
- ┃ ┃ ┣ 📜globals.css
- ┃ ┃ ┣ 📜icon.png
- ┃ ┃ ┣ 📜layout.tsx
- ┃ ┃ ┣ 📜loading.tsx
- ┃ ┃ ┣ 📜not-found.tsx
- ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┃ ┗ ⚛️page.tsx
+ ┃ ┃ ┣ ⚛️apple-icon.png
+ ┃ ┃ ┣ ⚛️error.tsx
+ ┃ ┃ ┣ ⚛️favicon.ico
+ ┃ ┃ ┣ ⚛️global-error.tsx
+ ┃ ┃ ┣ ⚛️globals.css
+ ┃ ┃ ┣ ⚛️icon.png
+ ┃ ┃ ┣ ⚛️layout.tsx
+ ┃ ┃ ┣ ⚛️loading.tsx
+ ┃ ┃ ┣ ⚛️not-found.tsx
+ ┃ ┃ ┗ ⚛️page.tsx
  ┃ ┣ 📂baseApi
- ┃ ┃ ┗ 📜apiUrl.tsx
+ ┃ ┃ ┗ ⚛️apiUrl.tsx
  ┃ ┣ 📂components
  ┃ ┃ ┣ 📂providers
- ┃ ┃ ┃ ┣ 📜Providers.tsx
- ┃ ┃ ┃ ┗ 📜ReduxProv.tsx
+ ┃ ┃ ┃ ┣ ⚛️Providers.tsx
+ ┃ ┃ ┃ ┗ ⚛️ReduxProv.tsx
  ┃ ┃ ┣ 📂serverToClient
  ┃ ┃ ┗ 📂UI
  ┃ ┃ ┃ ┣ 📂common
  ┃ ┃ ┃ ┃ ┣ 📂formPages
- ┃ ┃ ┃ ┃ ┃ ┗ 📜CustomForm.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️CustomForm.tsx
  ┃ ┃ ┃ ┃ ┗ 📂SVG
- ┃ ┃ ┃ ┃ ┃ ┣ 📜AddSVG.tsx
- ┃ ┃ ┃ ┃ ┃ ┣ 📜DeleteSVG.tsx
- ┃ ┃ ┃ ┃ ┃ ┗ 📜EditSVG.tsx
+ ┃ ┃ ┃ ┃ ┃ ┣ ⚛️AddSVG.tsx
+ ┃ ┃ ┃ ┃ ┃ ┣ ⚛️DeleteSVG.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️EditSVG.tsx
  ┃ ┃ ┃ ┣ 📂footer
- ┃ ┃ ┃ ┃ ┗ 📜Footer.tsx
+ ┃ ┃ ┃ ┃ ┗ ⚛️Footer.tsx
  ┃ ┃ ┃ ┣ 📂header
- ┃ ┃ ┃ ┃ ┗ 📜Header.tsx
+ ┃ ┃ ┃ ┃ ┗ ⚛️Header.tsx
  ┃ ┃ ┃ ┗ 📂pages
  ┃ ┃ ┃ ┃ ┣ 📂addTask
- ┃ ┃ ┃ ┃ ┃ ┗ 📜AddTask.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️AddTask.tsx
  ┃ ┃ ┃ ┃ ┣ 📂editTask
- ┃ ┃ ┃ ┃ ┃ ┗ 📜EditTask.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️EditTask.tsx
  ┃ ┃ ┃ ┃ ┣ 📂home
  ┃ ┃ ┃ ┃ ┃ ┣ 📂block
  ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂units
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TaskItemList.tsx
- ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TaskItemsList.tsx
- ┃ ┃ ┃ ┃ ┃ ┗ 📜TasksList.tsx
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️TaskItemList.tsx
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️TaskItemsList.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️TasksList.tsx
  ┃ ┃ ┃ ┃ ┗ 📂viewTasks
  ┃ ┃ ┃ ┃ ┃ ┗ 📂taskItemDetails
- ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TaskItemDetails.tsx
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️TaskItemDetails.tsx
  ┃ ┣ 📂hooks
  ┃ ┃ ┣ 📂common
  ┃ ┃ ┣ 📂functions
- ┃ ┃ ┃ ┣ 📜useMobileActive.tsx
- ┃ ┃ ┃ ┗ 📜useMobileScreen.tsx
+ ┃ ┃ ┃ ┣ ⚛️useMobileActive.tsx
+ ┃ ┃ ┃ ┗ ⚛️useMobileScreen.tsx
  ┃ ┃ ┣ 📂header
- ┃ ┃ ┃ ┗ 📜useHeader.tsx
+ ┃ ┃ ┃ ┗ ⚛️useHeader.tsx
  ┃ ┃ ┗ 📂pages
  ┃ ┃ ┃ ┣ 📂addTask
- ┃ ┃ ┃ ┃ ┗ 📜useAddTask.tsx
+ ┃ ┃ ┃ ┃ ┗ ⚛️useAddTask.tsx
  ┃ ┃ ┃ ┣ 📂editTask
- ┃ ┃ ┃ ┃ ┗ 📜useEditTask.tsx
+ ┃ ┃ ┃ ┃ ┗ ⚛️useEditTask.tsx
  ┃ ┃ ┃ ┣ 📂home
- ┃ ┃ ┃ ┃ ┗ 📜useTasksList.tsx
+ ┃ ┃ ┃ ┃ ┗ ⚛️useTasksList.tsx
  ┃ ┃ ┃ ┗ 📂viewTasks
  ┃ ┃ ┃ ┃ ┗ 📂taskItemDetails
- ┃ ┃ ┃ ┃ ┃ ┗ 📜useTaskItemDetails.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️useTaskItemDetails.tsx
  ┃ ┣ 📂redux
  ┃ ┃ ┣ 📂app
- ┃ ┃ ┃ ┣ 📜hooks.ts
- ┃ ┃ ┃ ┗ 📜store.ts
+ ┃ ┃ ┃ ┣ ⚛️hooks.ts
+ ┃ ┃ ┃ ┗ ⚛️store.ts
  ┃ ┃ ┣ 📂features
  ┃ ┃ ┃ ┗ 📂local
  ┃ ┃ ┃ ┃ ┗ 📂tasks
- ┃ ┃ ┃ ┃ ┃ ┗ 📜tasksSlice.ts
+ ┃ ┃ ┃ ┃ ┃ ┗ ⚛️tasksSlice.ts
  ┃ ┃ ┗ 📂typesRedux
  ┃ ┃ ┃ ┗ 📂tasks
- ┃ ┃ ┃ ┃ ┗ 📜TasksTypes.ts
+ ┃ ┃ ┃ ┃ ┗ ⚛️TasksTypes.ts
  ┃ ┣ 📂types
  ┃ ┗ 📂utils
  ┃ ┃ ┗ 📂localStorage
- ┃ ┃ ┃ ┣ 📜getFromStorage.ts
- ┃ ┃ ┃ ┣ 📜removeFromStorage.ts
- ┃ ┃ ┃ ┗ 📜setToLocalStorage.ts
- ┣ 📜.editorconfig
- ┣ 📜.env.local
- ┣ 📜.eslintrc.json
- ┣ 📜.gitignore
- ┣ 📜.prettierrc
- ┣ 📜next-env.d.ts
- ┣ 📜next.config.js
- ┣ 📜package-lock.json
- ┣ 📜package.json
- ┣ 📜postcss.config.js
- ┣ 📜README.md
- ┣ 📜tailwind.config.ts
- ┗ 📜tsconfig.json
+ ┃ ┃ ┃ ┣ ⚛️getFromStorage.ts
+ ┃ ┃ ┃ ┣ ⚛️removeFromStorage.ts
+ ┃ ┃ ┃ ┗ ⚛️setToLocalStorage.ts
+ ┣ ⚛️.editorconfig
+ ┣ ⚛️.env.local
+ ┣ ⚛️.eslintrc.json
+ ┣ ⚛️.gitignore
+ ┣ ⚛️.prettierrc
+ ┣ ⚛️next-env.d.ts
+ ┣ ⚛️next.config.js
+ ┣ ⚛️package-lock.json
+ ┣ ⚛️package.json
+ ┣ ⚛️postcss.config.js
+ ┣ ⚛️README.md
+ ┣ ⚛️tailwind.config.ts
+ ┗ ⚛️tsconfig.json
 
 ```
 
